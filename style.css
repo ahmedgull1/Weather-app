@@ -1,0 +1,61 @@
+body {
+    background-color: red;
+}
+
+body {
+    text-shadow: rgb(189, 188, 188) 4px 4px 4px;
+    transition: background-image 0.5s ease;
+}
+
+body.clear {
+    background-image: url('./images/clouds.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.haze {
+    background-image: url('./images/haze.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.snow {
+    background-image: url('./images/snow.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.rain {
+    background-image: url('./images/rain.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.smoke {
+    background-image: url('./images/smoke.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    background-color: rgba(2, 2, 8, 0.637);
+
+}
+
+input {
+    box-shadow: inset 7px 0 10px -5px rgba(9, 124, 255, 0.5),
+        inset -5px 0 15px -5px rgba(9, 118, 243, 0.5),
+        inset 0 -5px 15px -5px rgba(5, 122, 255, 0.5),
+        inset 0 5px 15px -5px rgba(8, 22, 226, 0.5);
+    border: none;
+    text-shadow: rgb(121, 119, 119) 4px 4px 4px;
+}
+
+button {
+    box-shadow: inset 7px 0 10px -5px rgba(9, 124, 255, 0.5),
+        inset -5px 0 15px -5px rgba(9, 118, 243, 0.5),
+        inset 0 -5px 15px -5px rgba(5, 122, 255, 0.5),
+        inset 0 5px 15px -5px rgba(8, 22, 226, 0.5);
+    /* border: none; */
+    text-shadow: rgb(121, 119, 119) 4px 4px 4px;
+}
